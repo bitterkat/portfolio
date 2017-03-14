@@ -3,49 +3,29 @@ html {
   font-family: sans-serif;
 }
 
+nav {
+    background-color: #ddd;
+    width: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+nav p {
+  display: inline;
+  padding: 5px;
+}
+
 ul {
   list-style-type: none;
   width: 600px;
 }
 
 li img {
-  float: left;
   margin: 0 15px 0 0;
-}
-
-li p {
-  font: 1.25rem;
-  padding-top: 15px;
 }
 
 li {
   padding: 5px;
-  overflow: auto;
-}
-
-img.desaturate:hover {
-  filter: grayscale(100%);
-}
-
-#hide-details {
-  display: block;
-}
-
-#show-details:hover #hide-details {
-  display: none;
-}
-
-#transition-hover-content {
-  opacitiy:0;
-  -webkit-transition:.5s;
-  -moz-transition:.5s;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  transition:.5s;
-}
-
-#transition-hover:hover #transition-hover-content {
-  opacity:1;
 }
 
 img.bio {
