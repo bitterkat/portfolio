@@ -3,6 +3,34 @@ html {
   font-family: sans-serif;
 }
 
-.portfolio-image {
-  display: inline;
+ul {
+  list-style-type: none;
+  width: 400px;
+}
+
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+li p {
+  font: 1.25rem;
+  padding-top: 15px;
+}
+
+li {
+  padding: 5px;
+  overflow: auto;
+}
+
+li:hover, li:hover a {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bio img {
+  float: left;
+  height: 300px;
+  padding-right: 20px;
 }
