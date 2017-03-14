@@ -2,6 +2,7 @@ html {
   font-size: 16px;
   font-family: Gill Sans Extrabold, sans-serif;
   margin: 20px;
+  width: 600px;
 }
 
 a {
@@ -9,32 +10,48 @@ a {
 }
 
 nav {
-    background-color: #ddd;
-    width: 600px;
-    border: 1px solid #ccc;
-    padding: 10px;
+  background-color: blue;
+  border: 1px dotted #ccc;
+  padding: 15px;
 }
 
-nav p {
+nav p, nav a {
   display: inline;
   padding: 5px;
+  color: white;
+  font-weight: bold;
 }
 
-ul {
+nav a:hover {
+  color: orange;
+}
+
+.portfolio ul {
   list-style-type: none;
-  width: 600px;
 }
 
-li img {
+.portfolio li img {
   margin: 0 15px 0 0;
+  height: 100px;
+  float: left;
 }
 
-li {
+.portfolio li {
   padding: 5px;
+  height: 100px;
 }
 
-img.bio {
+.bio-body img {
   float: left;
   height: 300px;
-  padding-right: 20px;
+  padding: 0 20px 10px 0;
+  }
+
+.bio-body p {
+  text-align: justify;
+}
+
+footer {
+  padding-top: 5px;
+  font-size: .75rem;
 }
