@@ -5,7 +5,7 @@ html {
 
 ul {
   list-style-type: none;
-  width: 400px;
+  width: 600px;
 }
 
 li img {
@@ -23,13 +23,32 @@ li {
   overflow: auto;
 }
 
-li:hover, li:hover a {
-  background: #000;
-  color: #fff;
-  cursor: pointer;
+img.desaturate:hover {
+  filter: grayscale(100%);
 }
 
-.bio img {
+#hide-details {
+  display: block;
+}
+
+#show-details:hover #hide-details {
+  display: none;
+}
+
+#transition-hover-content {
+  opacitiy:0;
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  transition:.5s;
+}
+
+#transition-hover:hover #transition-hover-content {
+  opacity:1;
+}
+
+img.bio {
   float: left;
   height: 300px;
   padding-right: 20px;
