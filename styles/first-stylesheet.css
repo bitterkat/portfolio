@@ -36,6 +36,11 @@ nav a:hover {
   color: #0C37C4;
 }
 
+footer {
+  margin-top: 2rem;
+  font-size: .75rem;
+}
+
 .portfolio ul {
   list-style-type: none;
 }
@@ -64,9 +69,4 @@ nav a:hover {
 
 .bio-body p {
   text-align: justify;
-}
-
-footer {
-  margin-top: 2rem;
-  font-size: .75rem;
 }
