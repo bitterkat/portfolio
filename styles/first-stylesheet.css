@@ -1,50 +1,66 @@
 html {
   font-size: 16px;
   font-family: Gill Sans Extrabold, sans-serif;
-  margin: 20px;
-  width: 600px;
+  margin: 2rem;;
+  width: 50rem;;
 }
 
 a {
   text-decoration: none;
 }
 
+h2 {
+  font-family: fantasy;
+  border-bottom: .1rem solid darkgrey;
+}
+
+header h1 {
+  border: 1rem solid purple;
+  padding: .5rem;
+  text-align: center;
+}
+
 nav {
-  background-color: blue;
-  border: 1px dotted #ccc;
-  padding: 15px;
+  background-color: #81AAD4;
+  border: .1rem solid black;
+  padding: .75rem;
 }
 
 nav p, nav a {
   display: inline;
-  padding: 5px;
-  color: white;
+  padding: .25rem;
+  color: black;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: orange;
+  color: #0C37C4;
 }
 
 .portfolio ul {
   list-style-type: none;
 }
 
-.portfolio li img {
-  margin: 0 15px 0 0;
-  height: 100px;
-  float: left;
+.portfolio li {
+  margin: 1rem;
+  padding: .25rem;
+  border: 1px solid darkgrey;
+  width: 50%;
 }
 
-.portfolio li {
-  padding: 5px;
-  height: 100px;
+.portfolio li img {
+  padding: .5rem;
+  height: 75px;
+}
+
+.portfolio li a:hover {
+  color: green;
 }
 
 .bio-body img {
   float: left;
   height: 300px;
-  padding: 0 20px 10px 0;
+  padding: 0 2rem 2rem 0;
   }
 
 .bio-body p {
@@ -52,6 +68,6 @@ nav a:hover {
 }
 
 footer {
-  padding-top: 5px;
+  margin-top: 2rem;
   font-size: .75rem;
 }
