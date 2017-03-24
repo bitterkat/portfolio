@@ -12,17 +12,37 @@ a {
   text-decoration: none;
 }
 
-.logo {
+h2 {
+  border-bottom: .1rem solid darkgrey;
 }
 
-.portfolio h2, .bio-body h2 {
-  border-bottom: .1rem solid darkgrey;
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-nav {
+  margin-top: .5rem;
+}
+
+.top-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.top-nav li {
+  margin: .5rem .5rem;
 }
 
 .portfolio ul {
   padding: 0;
   margin: 0;
-  width: 80vmin;
+  width: 70vmin;
   list-style: none;
 
   display: -webkit-box;
@@ -46,14 +66,14 @@ a {
   color: black;
   font-size: .75rem;
   text-align: center;
-    border-radius: 30%;
+  border-radius: 30%;
 }
 
 .list-item a {
   color: black;
 }
 
-.portfolio li:nth-child(2n), .portfolio li:nth-child(2n) a {
+.portfolio li:nth-child(even), .portfolio li:nth-child(even) a {
   background-color: gainsboro;
 }
 
@@ -61,37 +81,12 @@ a {
   border-radius: 50%;
 }
 
-#container {
-  display: flex;
-  flex-direction: column;
+.animate {
+  transition: all 1s ease 0s;
 }
 
-.header {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.top-nav {
-  margin-top: .5rem;
-}
-
-.top-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-.top-nav li {
-  margin: .5rem .5rem;
-}
-
-footer {
-  padding: .5rem;
-  color: gray;
-  margin-top: 2rem;
-  font-size: .85rem;
-  letter-spacing: .15rem;
+.animate:hover {
+ transform: rotate(360deg);
 }
 
 .bio-body img {
@@ -104,10 +99,10 @@ footer {
   text-align: justify;
 }
 
-.animate {
-  transition: all 1s ease 0s;
-}
-
-.animate:hover {
- transform: rotate(360deg);
+footer {
+  padding: .5rem;
+  color: gray;
+  margin-top: 2rem;
+  font-size: .85rem;
+  letter-spacing: .15rem;
 }
