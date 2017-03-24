@@ -15,7 +15,7 @@ a {
 .logo {
 }
 
-.portfolio h2 {
+.portfolio h2, .bio-body h2 {
   border-bottom: .1rem solid darkgrey;
 }
 
@@ -80,7 +80,6 @@ a {
   list-style: none;
   display: flex;
   justify-content: space-around;
-
 }
 
 .top-nav li {
@@ -99,17 +98,16 @@ footer {
   float: left;
   height: 300px;
   padding: 0 2rem 2rem 0;
-  }
+}
 
 .bio-body p {
   text-align: justify;
 }
 
 .animate {
-  transition: all 1s ease 1s;
+  transition: all 1s ease 0s;
 }
 
 .animate:hover {
  transform: rotate(360deg);
- transform: rotate3d(1, 1, 1, 360deg);
 }
