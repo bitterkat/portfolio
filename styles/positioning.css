@@ -2,14 +2,13 @@ html {
   /*margin: 1rem;*/
 }
 
-/*#container {
-  display: flex;
-  flex-direction: column;
-}*/
 
-/*.portfolio ul {
-  list-style-type: none;
-}*/
+
+
+
+.portfolio {
+  position: relative;
+}
 
 .portfolio ul {
   padding: 0;
@@ -28,14 +27,14 @@ html {
 }
 
 .list-item, .list-item a {
-  background: black;
+  background: white;
   padding: 5px;
   width: 200px;
   height: 175px;
   margin-top: 10px;
 
   line-height: 10px;
-  color: white;
+  color: black;
   font-size: .75rem;
   text-align: center;
   /*margin: 1rem;
@@ -46,7 +45,7 @@ html {
 
 .portfolio li img {
   /*padding: .5rem;*/
-  height: 100px;
+  /*height: 100px;*/
   /*background: rgb(255, 0, 255);*/
   border-radius: 50%;
   /*color: rgb(0, 255, 255);*/

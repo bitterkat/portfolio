@@ -1,6 +1,6 @@
 html {
   font-size: 16px;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 a {
@@ -12,27 +12,35 @@ h2 {
   border-bottom: .1rem solid darkgrey;*/
 }
 
-header h1 {
-  border: 1rem solid purple;
-  padding: .5rem;
-  text-align: center;
+#container {
+  display: flex;
+  flex-direction: column;
 }
 
-nav {
-  background-color: #81AAD4;
-  border: .1rem solid black;
-  padding: .75rem;
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-nav p, nav a {
-  display: inline;
-  padding: .25rem;
-  color: black;
-  font-weight: bold;
+.logo {
+  margin-left: 2rem;
 }
 
-nav a:hover {
-  color: #0C37C4;
+.top-nav {
+  margin-top: .5rem;
+}
+
+.top-nav ul {
+  /*margin: 2rem;*/
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.top-nav li {
+  margin: .5rem .5rem;
 }
 
 footer {
