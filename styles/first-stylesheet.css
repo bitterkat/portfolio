@@ -3,13 +3,20 @@ html {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+body {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 a {
   text-decoration: none;
 }
 
-h2 {
-  /*font-family: Blippo, fantasy;
-  border-bottom: .1rem solid darkgrey;*/
+.logo {
+}
+
+.portfolio h2 {
+  border-bottom: .1rem solid darkgrey;
 }
 
 #container {
@@ -23,16 +30,11 @@ h2 {
   width: 100%;
 }
 
-.logo {
-  margin-left: 2rem;
-}
-
 .top-nav {
   margin-top: .5rem;
 }
 
 .top-nav ul {
-  /*margin: 2rem;*/
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -44,8 +46,11 @@ h2 {
 }
 
 footer {
+  padding: .5rem;
+  color: gray;
   margin-top: 2rem;
-  font-size: .75rem;
+  font-size: .85rem;
+  letter-spacing: .15rem;
 }
 
 .bio-body img {
