@@ -1,7 +1,6 @@
 html {
   font-size: 16px;
   font-family: Tahoma, Geneva, sans-serif;
-  margin: 1rem;
 }
 
 a {
@@ -9,8 +8,8 @@ a {
 }
 
 h2 {
-  font-family: Blippo, fantasy;
-  border-bottom: .1rem solid darkgrey;
+  /*font-family: Blippo, fantasy;
+  border-bottom: .1rem solid darkgrey;*/
 }
 
 header h1 {
@@ -39,26 +38,6 @@ nav a:hover {
 footer {
   margin-top: 2rem;
   font-size: .75rem;
-}
-
-.portfolio ul {
-  list-style-type: none;
-}
-
-.portfolio li {
-  margin: 1rem;
-  padding: .25rem;
-  border: 1px solid darkgrey;
-  width: 50%;
-}
-
-.portfolio li img {
-  padding: .5rem;
-  height: 75px;
-}
-
-.portfolio li a:hover {
-  color: green;
 }
 
 .bio-body img {

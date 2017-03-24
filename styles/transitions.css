@@ -1,0 +1,23 @@
+.animate {
+  /*background: rgb(0, 150, 255);
+  /*font-size: 2rem;*/
+  /*margin: 0 auto;
+  text-align: center; */
+
+  /*height: 10vmin;
+  line-height: 0vmin;
+  width: 10vmin; */
+
+  /*position: relative;*/
+  /*bottom: 59%;
+  left: 7%;*/
+
+  /* Here's the Magic! */
+  transition: all 1s ease 0s;
+}
+
+.animate:hover {
+  /*TRANSFORMATIONS */
+ transform: rotate(360deg);
+ transform: rotate3d(1, 1, 1, 360deg);
+}
