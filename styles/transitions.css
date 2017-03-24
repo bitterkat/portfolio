@@ -20,11 +20,13 @@
   /*TRANSFORMATIONS */
  transform: rotate(360deg);
  transform: rotate3d(1, 1, 1, 360deg);
-   /*animation: 1s ease-out 0s infinite pulse;*/
+      /*animation: 1s ease-out 0s infinite pulse;*/
+
 }
 
-/*@keyframes pulse {
+
+@keyframes pulse {
   0% { box-shadow: 0 0 0 rgb(253, 254, 0); }
   50% { box-shadow: 0 0 5rem rgb(253, 254, 0); }
   100% { box-shadow: 0 0 0 rgb(253, 254, 0); }
-}*/
+}
